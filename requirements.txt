@@ -1,7 +1,6 @@
-streamlit
+streamlit==1.25.0
 openai
 pandas
 python-dotenv
-pdfplumber
-python-pptx
-pytest
+PyPDF2
+# python-pptx
