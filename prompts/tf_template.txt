@@ -1,0 +1,14 @@
+You are an exam creator. Given the source text delimited by triple backticks, create {n} True/False questions. Return STRICT JSON array where each object has:
+- id (int)
+- type ("tf")
+- question (string)
+- answer (true or false)
+- explanation (short string)
+- difficulty ("easy","medium","hard")
+
+Source text:
+\`\`\`
+{source_text}
+\`\`\`
+
+Difficulty: {difficulty}
