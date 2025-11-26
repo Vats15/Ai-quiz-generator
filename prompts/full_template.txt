@@ -1,0 +1,14 @@
+You are an exam creator. Given the source text delimited by triple backticks, create {n} full-answer questions requiring a paragraph-length answer. Return STRICT JSON array where each object has:
+- id (int)
+- type ("full")
+- question (string)
+- answer (string)
+- explanation (optional string)
+- difficulty ("easy","medium","hard")
+
+Source text:
+\`\`\`
+{source_text}
+\`\`\`
+
+Difficulty: {difficulty}
